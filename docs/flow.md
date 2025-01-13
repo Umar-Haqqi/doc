@@ -3,6 +3,9 @@ sidebar_label: 'Flow'
 sidebar_position: 4
 ---
 
+# Flows
+
+
 ## *What is the Journey Flow?*
 
 A *Journey Flow* in Idenfo defines the structured and intuitive sequence of steps that users follow to complete their identity verification or authentication process. Each flow is meticulously designed to provide a seamless, secure, and user-friendly experience while ensuring compliance with global regulatory standards.

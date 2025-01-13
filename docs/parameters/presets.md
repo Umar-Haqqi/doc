@@ -15,13 +15,13 @@ Welcome to the Idenfo Identity Verification SDK! To begin integrating and config
 
 To access Idenfo's Identity Verification services and SDKs, you first need to create an account on *Idenfo Direct*.  
 
-👉 *[Sign Up Here](https://your-id-direct-url.com)*  
+**Sign Up Here:** https://pkdirectuat.idenfo.com/signup
+
+![My Image](../../static/img/signup.jpg)
 
 Once you’ve created an account, you’ll gain access to the Idenfo dashboard, where you can manage your account, configure your journey flows, and access the necessary SDK documentation and tools.
 
----
-
-### *2. Configure Your Journey Flow*  
+<!-- ### *2. Configure Your Journey Flow*  
 
 After logging into your Idenfo dashboard, the next step is to configure your *Journey Flow*.  
 
@@ -39,7 +39,8 @@ After logging into your Idenfo dashboard, the next step is to configure your *Jo
 
 Save your journey flow once you've configured it. This flow will now guide your SDK implementation.
 
----
+![My Image](../../static/img/conf.jpg) -->
+
 
 
 

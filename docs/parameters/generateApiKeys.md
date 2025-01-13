@@ -10,15 +10,30 @@ sidebar_position: 3
 To integrate the Idenfo Identity Verification SDK with your application, you need to generate API keys.  
 
 #### *Steps to Generate API Keys*:  
-1. Go to the *API Key Management* section in your Idenfo dashboard.  
-2. Click on *Generate New Key* and select the desired permissions and scope for the key.  
-3. Copy the API key and store it securely. You will use this key to authenticate your SDK integration.  
+<!-- 1. Go to the **Developers Tools** section in your Idenfo dashboard.  
+2. Click on **Add Application** and in which u can provide bundle on each SDK then Click on save button.
+3. After the creation of API secert, copy the API key and store it securely. You will use this key to authenticate your SDK integration.   -->
+
+1. Open the **Developer Tools** tab, locate the top navigation bar, and click on **Application Access**.
+2. Click the **Add Application** button. A popup window will appear.
+In the popup, provide the following details:
+- **Title**
+- **Bundle ID**
+- Select the **SDK Type** (e.g., Android or iOS) using the radio buttons. 
+- Click the **Create button** to proceed.
+
+3. Once the application is created, click the Modify button. This will display the keys, which you can then use to initialize your app.
+4. In the Application Access data table, you can see the **Code Key**, which is used to access the Android repository.
 
 *Important*: Do not share your API keys publicly or expose them in your application code. Use environment variables or secure key storage practices for production environments.
 
+![My Image](../../static/img/newqqq.png)
+
+![My Image](../../static/img/newqq.png)
+
 ---
 
-### *4. Download and Integrate the SDK*  
+<!-- ### *4. Download and Integrate the SDK*  
 
 Once your account is set up, journey flow configured, and API keys generated, download the appropriate SDK for your platform:  
 
@@ -51,4 +66,6 @@ Ensure all configurations are finalized before moving to production to avoid dis
 
 ---
 
-With these steps, your integration with Idenfo's Identity Verification SDK will be up and running, delivering secure and seamless identity verification experiences for your users.
+With these steps, your integration with Idenfo's Identity Verification SDK will be up and running, delivering secure and seamless identity verification experiences for your users. -->
+
+

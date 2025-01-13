@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # Overview
 
-Welcome to the Idenfo API Documentation!At Idenfo, we specialize in creating secure, scalable, and user-friendly solutions for customer onboarding and identity verification (ID&V). Our mission is to empower businesses with cutting-edge tools that enhance regulatory compliance, reduce fraud, and deliver seamless customer experiences.
+Welcome to the Idenfo API Documentation!At Idenfo, we specialize in creating secure, scalable, and user-friendly solutions for customer onboarding and identity verification (IDV). Our mission is to empower businesses with cutting-edge tools that enhance regulatory compliance, reduce fraud, and deliver seamless customer experiences.
 
 This documentation serves as a comprehensive guide to integrating Idenfo APIs into your systems, whether you’re building a mobile app, web platform, or enterprise software.
 

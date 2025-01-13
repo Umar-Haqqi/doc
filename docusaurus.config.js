@@ -89,14 +89,14 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'mobileSDKs',
             position: 'left',
-            label: 'Developer Guide',
+            label: 'SDK Guide',
           },
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'restfulApiSidebar',
-          //   position: 'left',
-          //   label: 'RESTful API', 
-          // },
+          {
+            type: 'docSidebar',
+            sidebarId: 'restfulApiSidebar',
+            position: 'left',
+            label: 'API Guide', 
+          },
           // {to: '/blog', label: 'Blog', position: 'left'},
           // {
           //   href: 'https://github.com/facebook/docusaurus',

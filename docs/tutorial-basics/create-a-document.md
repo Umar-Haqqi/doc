@@ -1,57 +1,34 @@
 ---
-sidebar_position: 2
+sidebar_label: "Overview"
+sidebar_position: 1
 ---
 
-# Create a Document
+# Overview
 
-Documents are **groups of pages** connected through:
+Welcome to the API documentation for our **AML KYC Solution**, an **end-to-end compliance platform** designed to meet all your digital Anti-Money Laundering (AML) and Know Your Customer (KYC) requirements.
 
-- a **sidebar**
-- **previous/next navigation**
-- **versioning**
+Our APIs empower businesses to seamlessly integrate AML and KYC functionalities into their workflows, enabling efficient compliance management, risk assessment, and regulatory adherence. Whether you're onboarding customers, performing due diligence, or monitoring transactions, our API suite provides robust, secure, and scalable tools to streamline your compliance processes.
 
-## Create your first Doc
+### Key Features
 
-Create a Markdown file at `docs/hello.md`:
+- **Identity Verification (Deeplink):** Validate customer identities with real-time document checks and liveness detection.
 
-```md title="docs/hello.md"
-# Hello
+- **Risk Profiling:** Perform comprehensive risk assessments with our intelligent risk scoring engine.
 
-This is my **first Docusaurus document**!
-```
+- **Screening & Monitoring:** Screen individuals and entities against global sanction lists, PEPs (Politically Exposed Persons), and adverse media.
 
-A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).
+- **Universal Workflows:** Tailored AML and KYC processes to fit high and low level business needs.
 
-## Configure the Sidebar
+- **Compliance Reporting:** Generate audit-ready reports for regulatory filings and internal reviews.
 
-Docusaurus automatically **creates a sidebar** from the `docs` folder.
+### Why Use Our APIs?
 
-Add metadata to customize the sidebar label and position:
+- **Scalability:** Built for businesses of all sizes, from startups to enterprises.
 
-```md title="docs/hello.md" {1-4}
----
-sidebar_label: 'Hi!'
-sidebar_position: 3
----
+- **Security:** Designed with industry-leading security standards to protect sensitive data.
 
-# Hello
+- **Flexibility:** API endpoints are modular and easy to integrate into existing systems.
 
-This is my **first Docusaurus document**!
-```
+- **Support:** Comprehensive documentation and dedicated support for smooth implementation.
 
-It is also possible to create your sidebar explicitly in `sidebars.js`:
-
-```js title="sidebars.js"
-export default {
-  tutorialSidebar: [
-    'intro',
-    // highlight-next-line
-    'hello',
-    {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
-    },
-  ],
-};
-```
+Explore our API documentation to discover how our product can help your business achieve compliance effortlessly while delivering a seamless user experience to your customers.

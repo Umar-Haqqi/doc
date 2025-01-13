@@ -3,6 +3,12 @@ sidebar_label: 'Features'
 sidebar_position: 3
 ---
 
+# Features
+
+The Idenfo SDK offers advanced identity verification tools to streamline onboarding, enhance user experiences, and prevent fraud. From real-time liveness detection to OCR integration, each feature is designed to deliver secure and efficient workflows tailored to your business needs. Explore the features below to see how they can elevate your verification processes.
+
+![My Image](../static/img/sdk-features.png) 
+
 #### *Real-Time Liveness Detection*  
 Idenfo’s advanced liveness detection technology ensures that every verification process is safeguarded against spoofing attempts. By analyzing subtle movements such as blinking, head tilts, and facial expressions, our SDK confirms the physical presence of the user in real time. This feature is indispensable for remote onboarding, guaranteeing the integrity of your verification process by preventing the use of photos, videos, or masks.  
 
@@ -29,11 +35,12 @@ Deliver a personalized verification journey tailored to your business needs. Our
 ---
 
 #### *OCR Integration*  
-Accelerate onboarding with Optical Character Recognition (OCR) that transforms text from uploaded documents into digital data instantly. By eliminating manual data entry, this feature enhances accuracy and reduces the time required for processing applications. The OCR technology seamlessly integrates with other verification processes, making the entire workflow more efficient and user-friendly.  
+Accelerate onboarding with Optical Character Recognition (OCR) that transforms text from uploaded documents into digital data instantly. By eliminating manual data entry, this feature enhances accuracy and reduces the time required for processing applications. The OCR technology seamlessly integrates with other verification processes, making the entire workflow more efficient and user-friendly. 
 
----
 
-### OCR Integration  
+<!-- --- -->
+
+<!-- ### OCR Integration  
 Our OCR capabilities extract and digitize text from uploaded documents, reducing manual data entry and speeding up the onboarding process. This feature not only improves efficiency but also enhances the accuracy of data captured during verification.
 
 
@@ -73,7 +80,7 @@ Optimized for high availability.
 Idenfo is designed for easy integration with your existing systems, whether you’re building a mobile app, web application, or enterprise solution. We offer comprehensive API documentation and code samples to help you get started quickly.
 
 
-![My Image](../static/img/sdk-features.png)
+![My Image](../static/img/sdk-features.png) -->
 
 <!-- Integration Methods:
 - REST APIs.

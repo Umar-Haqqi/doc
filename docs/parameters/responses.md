@@ -7,20 +7,22 @@ sidebar_position: 2
 
 ### *2. Configure Your Journey Flow*  
 
-After logging into your Idenfo dashboard, the next step is to configure your *Journey Flow*.  
+After signing up, proceed to configure your settings:
 
-#### *How to Configure a Journey Flow*:  
-1. Navigate to the *Journey Flow Builder* section in your dashboard.  
-2. Select the steps you want to include in your flow. For example:  
-   - *Document Verification*  
-   - *Proof of Address Verification*  
-   - *Facial Verification (Selfie)*  
-   - *AML Screening* (optional)  
-3. Customize each step to match your business requirements, such as:  
-   - Document types (passports, IDs, etc.)  
-   - Facial verification thresholds.  
-   - Optional integrations like AML or government database checks.  
+   1. Access the Configuration Panel:
+      - Navigate to the left sidebar.
+      - Click on the **Configuration panel**.
+   2. SDK Configuration:
+      - Within the **Configuration panel**, click on **SDK Configuration**.
+   3. ID Document Selection:
+      - The **Configuration tab** allows you to:
+         - Select multiple countries for ID documents and SANs.
+         - Modify document types (e.g., Passport, ID Card).
+         - Enable OCR and face comparison features.
+         - Adjust settings for Name Screening and Risk Rating.
 
-Save your journey flow once you've configured it. This flow will now guide your SDK implementation.
+![My Image](../../static/img/conf.jpg)
+
+![My Image](../../static/img/ukiddoc.png)
 
 ---
