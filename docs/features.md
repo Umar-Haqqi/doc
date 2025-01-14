@@ -9,32 +9,32 @@ The Idenfo SDK offers advanced identity verification tools to streamline onboard
 
 ![My Image](../static/img/sdk-features.png) 
 
-#### *Real-Time Liveness Detection*  
+### Real-Time Liveness Detection
 Idenfo’s advanced liveness detection technology ensures that every verification process is safeguarded against spoofing attempts. By analyzing subtle movements such as blinking, head tilts, and facial expressions, our SDK confirms the physical presence of the user in real time. This feature is indispensable for remote onboarding, guaranteeing the integrity of your verification process by preventing the use of photos, videos, or masks.  
 
 ---
 
-#### *AI-Powered Face Matching*  
+### AI-Powered Face Matching 
 Leverage state-of-the-art facial comparison technology to validate user identities with unparalleled accuracy. Our SDK matches the user’s live image with their official ID photo, ensuring that only legitimate users gain access. This advanced feature significantly reduces identity fraud risks, giving businesses confidence in the authenticity of their customer base while providing a seamless user experience.  
 
 ---
 
-#### *Multi-Format Document Upload*  
+### Multi-Format Document Upload
 Simplify the onboarding process with support for a wide range of identity documents. From national IDs and passports to residence visas, our SDK ensures compatibility with various formats and languages. The intuitive document upload feature facilitates smooth and hassle-free verification for users from diverse backgrounds, helping businesses extend their reach globally.  
 
 ---
 
-#### *Comprehensive Anti-Fraud Screening*  
+### Comprehensive Anti-Fraud Screening
 Enhance security with our robust anti-fraud detection module. By meticulously analyzing key document elements such as watermarks, logos, and signatures, the SDK identifies potential forgeries and ensures document authenticity. This automated process minimizes manual intervention, speeding up verification while maintaining the highest standards of accuracy and reliability.  
 
 ---
 
-#### *Adaptive User Experience with Configurable Presets*  
+### Adaptive User Experience with Configurable Presets
 Deliver a personalized verification journey tailored to your business needs. Our SDK adapts to varying environments, whether low-bandwidth networks or devices with different technical capabilities. Configurable presets enable businesses to customize workflows, control verification parameters, and align the user experience with specific compliance or operational requirements—all without compromising security or precision.  
 
 ---
 
-#### *OCR Integration*  
+### OCR Integration
 Accelerate onboarding with Optical Character Recognition (OCR) that transforms text from uploaded documents into digital data instantly. By eliminating manual data entry, this feature enhances accuracy and reduces the time required for processing applications. The OCR technology seamlessly integrates with other verification processes, making the entire workflow more efficient and user-friendly. 
 
 
