@@ -82,6 +82,7 @@ const sidebars = {
           type: 'category',
           label: 'List Of Values',
           items: [
+            'endpoint/countries',
             'endpoint/get-workTypes',
             'endpoint/get-industries',
             'endpoint/get-products',
