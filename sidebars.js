@@ -31,10 +31,10 @@ const sidebars = {
       type: 'category',
       label: 'Getting Started',
       items: [
-        'parameters/presets',
-        'parameters/responses',
-        'parameters/generateApiKeys',
-        'parameters/secure',
+        'getting-started/create-account',
+        'getting-started/journey-flow',
+        'getting-started/generate-api-keys',
+        'getting-started/secure',
       ],
     },
     {
@@ -52,8 +52,8 @@ const sidebars = {
       type: 'category',
       label: 'API Guide',
       items: [
-        'tutorial-basics/create-a-document',
-        'tutorial-basics/api-flow-integration',
+        'api-guide/overview',
+        'api-guide/api-integration-flow',
         {
           type: 'category',
           label: 'Auth',
