@@ -31,10 +31,10 @@ const sidebars = {
       type: 'category',
       label: 'Getting Started',
       items: [
-        'parameters/presets',
-        'parameters/responses',
-        'parameters/generateApiKeys',
-        'parameters/secure',
+        'getting-started/create-account',
+        'getting-started/journey-flow',
+        'getting-started/generate-api-keys',
+        'getting-started/security-compliance',
       ],
     },
     {
