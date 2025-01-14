@@ -78,6 +78,15 @@ const sidebars = {
             'endpoint/getRCA',
             ],
         },
+        {
+          type: 'category',
+          label: 'List Of Values',
+          items: [
+            'endpoint/get-workTypes',
+            'endpoint/get-industries',
+            'endpoint/get-products',
+            ],
+        },
         // {
         //   type: 'category',
         //   label: 'Create Company by companyNumber',
