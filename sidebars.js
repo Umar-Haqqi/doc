@@ -50,9 +50,46 @@ const sidebars = {
   restfulApiSidebar: [
     {
       type: 'category',
-      label: 'Idenfo Direct - API Overview',
-      items: ['tutorial-basics/create-a-document','tutorial-basics/api-flow-integration'],
+      label: 'API Guide',
+      items: [
+        'tutorial-basics/create-a-document',
+        'tutorial-basics/api-flow-integration',
+        {
+          type: 'category',
+          label: 'Auth',
+          items: ['endpoint/login'],
+        },
+        {
+          type: 'category',
+          label: 'Customer Onboarding',
+          items: [
+            'endpoint/create-customer',
+            'endpoint/create-company-by-companyNumber',
+            'endpoint/deepLink',
+            'endpoint/edit-customer',
+            ],
+        },
+        {
+          type: 'category',
+          label: 'Fetch Customer Details',
+          items: [
+            'endpoint/fetch-customer',
+            'endpoint/download-pdf',
+            'endpoint/getRCA',
+            ],
+        },
+        // {
+        //   type: 'category',
+        //   label: 'Create Company by companyNumber',
+        //   items: ['endpoint/create-company-by-companyNumber'],
+        // },
+      ],
     },
+    // {
+    //   type: 'category',
+    //   label: 'Idenfo Direct - API Overview',
+    //   items: ['tutorial-basics/create-a-document', 'tutorial-basics/api-flow-integration'],
+    // },
     // { 
     //   type: 'category',
     //   label: 'Idenfo Direct - Overview',

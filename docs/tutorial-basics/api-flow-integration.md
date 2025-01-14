@@ -69,7 +69,7 @@ To integrate with Idenfo Direct APIs, please follow the steps outlined below:
     In case further assistance is required, feel free to contact support.
 
     
-![My Image](../../static/img/flowdirect1.png)
+![My Image](../../static/img/dataflow.png)
 
 
 <!-- Configuration Process:
