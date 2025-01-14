@@ -94,6 +94,52 @@ dependencyResolutionManagement {
 }
 ```
 
+Add the following code in your setting.gradle:
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+  <TabItem value="gdpr" label="Groovy">
+    ```groovy
+    dependencyResolutionManagement {
+        repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+        repositories {
+            google()
+            mavenCentral()
+            jcenter()
+            maven {
+                url "https://jitpack.io"
+                credentials { username authToken }
+            }
+        }
+    }
+    ```
+  </TabItem>
+  <TabItem value="android" label="Android">
+    ```android
+    dependencyResolutionManagement {
+        repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+        repositories {
+            google()
+            mavenCentral()
+            jcenter()
+            maven {
+                url = uri("https://jitpack.io")
+                credentials {
+                    username = authToken
+                }
+            }
+        }
+    }
+
+    ```
+    android
+  </TabItem>
+</Tabs>
+
+
+
 Instructions to get the authToken are in the [Authorization](./android#authorization) section
 
 <!-- For detailed information on how to use this parameter, please refer to the documentation [here](../parameters/presets#presets). -->
