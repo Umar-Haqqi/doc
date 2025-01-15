@@ -11,7 +11,7 @@ Welcome to the Idenfo Identity SDK setup. To begin integrating and configuring y
 
 ---
 
-### 1. Create an Account with Idenfo Direct
+### Create an Account with Idenfo Direct
 
 To access Idenfo's Identity Verification services and SDKs, you first need to create an account on *Idenfo Direct*.  
 

@@ -34,13 +34,16 @@ You can include the following code in the AndroidManifest file to grant the requ
 
 ### Authorization
 
-Before utilizing the mobile SDK, you must acquire:
+Before using the mobile SDK, follow these steps to obtain your unique API Key, Secret Key, and Code Key:
 
-- API Key and Secret Key, these keys are unique for each user and are required for making API calls. You will need to generate and securely store both the API Key and Secret Key to authenticate requests to our backend services.
+Generate Your **API Key** and **Secret Key**:
+Visit the [Getting Started](../getting-started/generate-api-keys.md) section to generate your unique credentials.
 
-- The authToken is essential when fetching the SDK from JitPack. JitPack allows you to easily include the SDK in your project, but it requires authentication using this token to ensure you are authorized to access the SDK.
+The mobile SDKs are authorized by passing the unique API Key and Secret Key in the authorization object, which is required for launching the SDK.
 
-In order to obtain API Key, Secret Key and authToken follow the steps below:
+**Additional Requirement for Android SDK:**
+
+For the Android SDK, a **Code Key** is required to access the SDK repository from JitPack.
 
 #### Register on Idenfo Direct
 Depending on your region, use one of the following registration links:
@@ -68,30 +71,13 @@ The mobile SDKs are authorized by passing the unique API Key and Secret Key in t
 Add identity verfication library in your build.gradle:
 
 ```groovy
-implementation 'org.bitbucket.idenfo-net:idv:1.0.0'
+implementation 'org.bitbucket.idenfo-net:idv:1.3'
 ```
 
 Add authToken in gradle.properties
 
 ```groovy
-authToken= <authToken>
-```
-
-Add the following code in your setting.gradle:
-
-```groovy
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        google()
-        mavenCentral()
-        jcenter()
-        maven {
-            url "https://jitpack.io"
-            credentials { username authToken }
-        }
-    }
-}
+authToken= <codekey>
 ```
 
 Add the following code in your setting.gradle:
@@ -116,7 +102,7 @@ import TabItem from '@theme/TabItem';
     }
     ```
   </TabItem>
-  <TabItem value="android" label="Android">
+  <TabItem value="kotlin" label="Kotlin">
     ```android
     dependencyResolutionManagement {
         repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
