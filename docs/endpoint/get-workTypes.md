@@ -11,6 +11,8 @@ sidebar_position: 1
 
 This API allows you to retrieve a predefined list of work types available in our system, along with their corresponding unique IDs. These IDs are essential for specifying the customer’s work details when adding or updating their profile.
 
+[See tutorial](https://www.loom.com/share/7d22c90a8dff4a1c9e794939ed5e9508)
+
 **Use Case**
 
 When submitting customer details, the work type field requires a specific ID from our system. This API helps you fetch the list of valid work types, ensuring accuracy and consistency in data entry. Use the returned ID for the desired work type and include it in the customer’s request body to complete the process successfully.

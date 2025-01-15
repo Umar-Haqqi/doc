@@ -11,6 +11,9 @@ sidebar_position: 3
 
 Our compliance audit ready reports can be accessed using the Download/Get Customer's PDF report API. Simply call this API with the IdenfoId of the customer and the PDF file will be returned to you via File Buffer.
 
+[See tutorial](https://www.loom.com/share/090521050de44f60b408ada67002dfb7)
+
+
 ### AUTHORIZATION (Bearer Token)
 
 - **Token**: `{{authToken}}`

@@ -11,6 +11,8 @@ sidebar_position: 3
 
 Through this API, a deeplink email will be sent to the customer to onboard themselves on the Idenfo system. Once the customer clicks on the link sent in the email, they will be taken through the Idenfo Onboarding process. Once their onboarding is completed, the customer will be successfully onboarded to the Idenfo System for KYC.
 
+[See tutorial](https://www.loom.com/share/dd10ba47f3604e8498953c2478b6317c)
+
 **Note:**
 
 If Webhooks are configured, the customer's KYC result will be automatically sent to your system once it is ready.
