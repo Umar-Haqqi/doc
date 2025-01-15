@@ -5,6 +5,10 @@ sidebar_position: 2
 
 # Configure Your Journey Flow
 
+You have successfully created your account with Idenfo Direct! Now, you can start configuring the SDK flow to align with your business requirements.
+
+### Configure Your Journey Flow
+
 <!-- ### *1. eee Your Journey Flow*   -->
 
 <!-- After signing up, proceed to configure your settings:

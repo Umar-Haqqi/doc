@@ -5,8 +5,6 @@ sidebar_position: 3
 
 # Generate Your API Keys
 
-<!-- ### *3. Generate API Keys*   -->
-
 To authenticate API requests to our backend services and access the Android SDK Repository via JitPack, you need to generate and securely store your unique **API Key**, **Secret Key**, and **Code Key**. The API and Secret Keys authenticate your requests, while the **Code Key** authorizes SDK access through JitPack. Follow the steps below to generate these keys and get started.
 
 ### Steps to Generate API Keys:  

@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Flow'
+sidebar_label: 'Flows'
 sidebar_position: 4
 ---
 
@@ -12,85 +12,59 @@ A **Journey Flow** in Idenfo defines the structured and intuitive sequence of st
 
 ![My Image](../static/img/idv-sdk-flow-resize.png)
 
+## SDK Configuration and Modular Workflow  
+Idenfo Direct offers a fully customizable journey flow tailored to meet client and business requirements. The modular structure allows businesses to enable or disable specific SDK features based on operational needs, compliance demands, and user experience preferences. 
 
-### Steps in the Journey Flow
+### Key Modules 
+1. **Profile Creation**  
+   - **Description:** Creates a user profile in Idenfo Direct to review the onboarded profiles.  
+   - **Use Case:** Core functionality for starting the user journey.  
+2. **OCR (Optical Character Recognition)**  
+   - **Description:** Automatically extracts text from uploaded documents.  
+   - **Use Case:** Eliminates manual data entry, ensuring accuracy and efficiency.  
 
-#### 1. Document Verification Step 
-This step enables users to capture and upload an image of their identity document, such as a passport, driver’s license, or national ID card. Idenfo’s advanced technology authenticates the document and extracts essential information accurately.  
+3. **OCR Review Screen**  
+   - **Description:** Allows users to verify and confirm the extracted text.  
+   - **Use Case:** Provides a final check for data accuracy before submission.  
 
-- **Key Features**:  
-  - Real-time document type recognition.  
-  - Instant feedback for capturing high-quality images.  
-  - Supports single-sided and double-sided document scans.  
+4. **Liveness Detection**  
+   - **Description:** Enables real-time detection of user presence through subtle physical movements.  
+   - **Use Case:** Prevents spoofing attempts using photos, videos, or masks.  
 
----
+5. **Face Comparison**  
+   - **Description:** Matches the user’s live selfie with their official ID photo for identity verification.  
+   - **Use Case:** Ensures user authenticity and prevents identity fraud.  
 
-#### 2. Proof of Address Verification Step
-Users provide proof of their current address by submitting documents such as utility bills, bank statements, or lease agreements. This step verifies the authenticity of the document and validates the residential address provided.  
+6. **Name Screening**  
+   - **Description:** Cross-references user names against global watchlists, PEP lists, and adverse media.  
+   - **Use Case:** Facilitates compliance with anti-money laundering (AML) regulations.  
 
-- **Accepted Documents Include**:  
-  - Utility bills (electricity, water, gas).  
-  - Bank or credit card statements.  
-  - Rental or lease agreements.  
+7. **Risk Rating**  
+   - **Description:** Calculates user risk scores based on compliance and profile data.  
+   - **Use Case:** Supports risk-based decision-making processes.  
 
-For a comprehensive list of accepted documents, refer to the Proof of Address Guidelines.
+8. **Document Validation**  
+   - **Description:** Allows users to select and validate document types during onboarding.  
+   - **Use Case:** Verifies the authenticity of identity documents.  
 
----
+### Configuration and Flexibility  
 
-#### 3. Facial Verification (Selfie) Step
-In this step, users capture a live selfie for biometric verification. This ensures that the individual presenting the identity document is its legitimate owner.  
+Each module can be independently activated or deactivated via the **SDK Configuration Panel**. This flexibility empowers businesses to:  
+- Design bespoke workflows for diverse onboarding scenarios.  
+- Optimize processes for compliance-heavy industries.  
+- Adapt quickly to changing business requirements.  
 
-- **Selfie Capture Guidance**:  
-  - Ensure proper lighting with no face obstructions.  
-  - Follow on-screen prompts, such as blinking or smiling.  
+### Example Journey Flows  
 
-Idenfo’s state-of-the-art facial recognition technology performs a real-time match with the ID photo and uses liveness detection to prevent fraudulent attempts with photos or videos.
+- **Basic Onboarding:**  → Document Validation → OCR → Liveness Detection → OCR → Liveness Detection → Face Comparison → Profile Creation 
+- **Enhanced Compliance:** Document Validation → OCR → Liveness Detection → OCR → Profile Creation → Name Screening → Risk Rating
+- **Fraud Prevention:** Liveness Detection → Face Comparison 
 
----
+### How to Configure  
 
-#### 4. Anti-Money Laundering (AML) Screening (Optional)  
-This optional step performs rigorous checks to screen user information against global watchlists, including:  
-- Politically Exposed Persons (PEP) lists.  
-- Sanctions databases.  
-- Anti-Money Laundering (AML) lists.  
+1. Navigate to the **SDK Configuration Panel** under the admin dashboard.  
+2. Use the toggle switch for each module to enable or disable it based on your requirements.  
+3. Save changes and update the flow to apply the new configuration immediately.  
 
-**Note**: This feature requires prior configuration with our support team and is available as an add-on service.
+For detailed guidance, refer to the configurations document to get started [Getting Started](./getting-started/journey-flow.md).
 
----
-
-#### 5. Government Database Integration (Optional)  
-To enhance the verification process, Idenfo can cross-verify user details against official government databases, adding an additional layer of authenticity and compliance.
-
----
-
-### Customizable Journey Flows
-
-Idenfo offers full flexibility in tailoring each journey flow to meet your specific requirements. Customizable options include:  
-- Defining permitted document types (e.g., passports, driver’s licenses).  
-- Setting selfie capture instructions and guidelines.  
-- Adjusting facial matching thresholds for optimal security.  
-
-These configurations can be easily managed via the *Journey Flow Builder* tool.
-
----
-
-### Supported Modules
-
-1. **Identity Document Verification Module**  
-   - Validates the authenticity of identity documents and extracts critical data fields with high accuracy.  
-
-2. **Proof of Address Verification Module**  
-   - Confirms residential details through various accepted document types.  
-
-3. **Facial Verification Module**  
-   - Ensures biometric verification and liveness detection to prevent fraud.  
-
-4. **AML Screening Module** (Optional)  
-   - Screens users against comprehensive global watchlists for regulatory compliance and fraud prevention.  
-
-5. **Government Database Verification Module** (Optional)  
-   - Matches user information against official government records to establish trust and compliance.
-
----
-
-Idenfo’s journey flows are designed with your business needs in mind, offering precision, security, and compliance in every step. By leveraging our advanced technology, you can ensure a smooth and trustworthy experience for your customers.
