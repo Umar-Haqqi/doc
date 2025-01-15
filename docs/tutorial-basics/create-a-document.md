@@ -31,4 +31,8 @@ Our APIs empower businesses to seamlessly integrate AML and KYC functionalities 
 
 - **Support:** Comprehensive documentation and dedicated support for smooth implementation.
 
+### Enterprise Solution for Customization
+
+In addition to our standard API offerings, we also provide an enterprise solution tailored to meet unique business requirements. This includes customizable workflows, bespoke integration options, and advanced compliance features designed specifically for organizations with complex or large-scale compliance needs.
+
 Explore our API documentation to discover how our product can help your business achieve compliance effortlessly while delivering a seamless user experience to your customers.
