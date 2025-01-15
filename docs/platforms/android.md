@@ -68,18 +68,18 @@ The mobile SDKs are authorized by passing the unique API Key and Secret Key in t
 Add identity verfication library in your build.gradle:
 
 ```groovy
-implementation 'org.bitbucket.idenfo-net:idv:1.0.0'
+implementation 'org.bitbucket.idenfo-net:idv:1.3'
 ```
 
 Add authToken in gradle.properties
 
 ```groovy
-authToken= <authToken>
+authToken= <codekey>
 ```
 
-Add the following code in your setting.gradle:
+<!-- Add the following code in your setting.gradle: -->
 
-```groovy
+<!-- ```groovy
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -92,7 +92,7 @@ dependencyResolutionManagement {
         }
     }
 }
-```
+``` -->
 
 Add the following code in your setting.gradle:
 
@@ -116,7 +116,7 @@ import TabItem from '@theme/TabItem';
     }
     ```
   </TabItem>
-  <TabItem value="android" label="Android">
+  <TabItem value="kotlin" label="Kotlin">
     ```android
     dependencyResolutionManagement {
         repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
